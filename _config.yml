@@ -1,0 +1,6 @@
+server_port: 30000
+baseurl: /
+
+source: .
+destination: ./_site
+permalink: pretty

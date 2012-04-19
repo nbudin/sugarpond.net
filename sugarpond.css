@@ -1,0 +1,92 @@
+body {
+  font-family: Liberation Serif, Georgia, serif;
+  color: #ef6600;
+  height: 100%;
+}
+h2 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+ul.navigation {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+a, a:visited {
+  color: #ef6600;
+  text-decoration: underline;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+a:hover {
+  background-color: #ffe9d9;
+}
+.sitejump {
+  text-align: right;
+}
+.sitejump a, .sitejump a:visited, a.button, a.button:visited {
+  background-color: #ffe9d9;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-style: italic;
+  font-size: 110%;
+  border: 1px #ef6600 solid;
+  text-decoration: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.logo {
+  position: relative; 
+  width: 790px;
+  top: 170px;
+  margin-top: -165.5px; 
+  left: 50%; 
+  margin-left: -395px;
+  padding: 5px;
+}
+.navigation {
+   display: inline-block;
+   background-color: #eee; 
+   padding: 5px;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   vertical-align: middle;
+   text-align: right;
+   width: 540px;
+}
+.navigation ul {
+   margin: 0;
+}
+.pagecontent {
+  position: relative;
+  width: 790px;
+  margin-left: -395px;
+  top: 200px;
+  left: 50%;
+  border-top: 2px #1087e0 solid;
+  background-color: #e4f3ff;
+  padding: 0.5em;
+}
+.pagecontent > *:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.post-header h2 {
+	margin: 0;
+}
+
+.post-header .post-date {
+	font-style: italic;
+	margin-top: 0;
+}
+
+ol.posts {
+	list-style-type: none;
+}
