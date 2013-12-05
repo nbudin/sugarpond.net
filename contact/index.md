@@ -5,4 +5,4 @@ layout: default
 
 ## Contact
 
-You can email Nat Budin, Sugar Pond's chief engineer and sole proprietor, at [nat@sugarpond.net](mailto:nat@sugarpond.net).
+You can email Nat Budin, Sugar Pond's sole proprietor, at [nat@sugarpond.net](mailto:nat@sugarpond.net).
