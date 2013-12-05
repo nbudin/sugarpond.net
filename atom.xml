@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Sugar Pond Company Blog</title>
+ <title>Sugar Pond Blog</title>
  <link href="http://sugarpond.net/atom.xml" rel="self"/>
  <link href="http://sugarpond.net/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
