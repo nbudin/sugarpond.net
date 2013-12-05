@@ -1,6 +1,6 @@
-server_port: 30000
-baseurl: /
-
-source: .
-destination: ./_site
+name: Sugar Pond
+description:
+markdown: redcarpet
 permalink: pretty
+
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'Makefile']
