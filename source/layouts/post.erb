@@ -1,0 +1,12 @@
+<% wrap_layout :layout do %>
+  <div class="post-header">
+    <h2><%= current_page.title %></h2>
+    <p class="post-date">Posted <%= current_page.date.strftime("%A, %B %e, %Y") %></p>
+  </div>
+  
+  <%= yield %>
+
+  <div>
+    <a href="/blog" class="button">Back to blog</a>
+  </div>
+<% end %>

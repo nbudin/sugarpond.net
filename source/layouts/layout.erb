@@ -3,15 +3,15 @@
 
 <html>
 <head>
-  <title>{{ page.title }} - Sugar Pond</title>
+  <title><%= current_article.title + ' - ' unless current_article.nil? %>Sugar Pond</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-  <link rel="stylesheet" type="text/css" href="/sugarpond.css"/>
+  <%= stylesheet_link_tag "sugarpond.css" %>
 </head>
 <body>
 
 <div class="logo">
   <div id="logo_image" style="display: inline-block; vertical-align: middle;">
-     <img src="/images/sugarpond.png" alt="Sugar Pond logo"/>
+    <%= image_tag "sugarpond.png", alt: "Sugar Pond logo" %>
   </div>
 
   <div class="navigation">
@@ -24,7 +24,7 @@
 </div>
 
 <div class="pagecontent">
-  {{ content }}
+  <%= yield %>
 </div>
 
 </body>

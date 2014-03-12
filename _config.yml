@@ -1,6 +1,0 @@
-name: Sugar Pond
-description:
-markdown: redcarpet
-permalink: pretty
-
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'Makefile']
